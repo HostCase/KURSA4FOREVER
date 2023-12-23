@@ -5,7 +5,8 @@ int main()
 {
 	int labs;
 	do {
-		cout << "\nEnter number of laboratory work(you can enter 0 to exit programm) \n";
+		system("cls");
+		cout << "\nEnter number of laboratory work(you can enter 0 to exit programm) \n1 - First lab\n2 - Second lab\n3 - Third lab\n4 - Fourth lab\n";
 		cin >> labs;
 		switch (labs) {
 		case 1: {
